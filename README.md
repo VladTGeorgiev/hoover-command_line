@@ -95,3 +95,6 @@ The easiest way to manipulate the data and run the script is to use a text edito
 ![Output](media/Output_three.png)
 
 
+
+# License
+    Hoover's journey is an open source software licensed as MIT.
