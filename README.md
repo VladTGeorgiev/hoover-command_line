@@ -44,9 +44,9 @@
         3. The instructions to run the script (README.md)
         4. The Media folder
 
-    ![Directory Structure](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Directory_structure.png)
+![Directory Structure](media/Directory_structure.png)
 
-    ![Media Folder](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Media_folder.png)
+![Media Folder](media/Media_folder.png)
 
 
 
@@ -61,7 +61,7 @@
             the [Cardinal Directions](https://en.wikipedia.org/wiki/Cardinal_direction), e.g. N, E, S, W.
             The format is as follows: "NNESEESWNWW", **no spaces allowed between the letters** (you do NOT need to wrap the sequence with " " in the file)
 
-    ![Input Format](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Input_format.png)
+![Input Format](media/Input_format.png)
 
 
 
@@ -72,31 +72,31 @@
         2.1 The first line will contain the final position of the hoover in the format - "X-axis space Y-axis", e.g. "1 3"
         2.2 The second line will be the number of dirt patches cleaned represented by a single number, e.g. "1"
 
-    ![Output Format](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Output_format.png)
+![Output Format](media/Output_format.png)
 
 
 
 # Examples
     1.
         1.1 Input
-            ![Input](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Input_1.png)
+![Input](media/Input_one.png)
             
 
         1.2 Output
-            ![Output](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Output_1.png)
+![Output](media/Output_one.png)
 
     2.
         2.1 Input
-            ![Input](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Input_2.png)
+![Input](media/Input_two.png)
 
         2.2 Output
-            ![Output](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Output_2.png)
+![Output](media/Output_two.png)
 
     3.
         3.1 Input
-            ![Input](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Input_3.png)
+![Input](media/Input_three.png)
 
         3.2 Output
-            ![Output](https://raw.githubusercontent.com/VladTGeorgiev/hoover-command_line/master/media/Output_3.png)
+![Output](media/Output_three.png)
 
 
