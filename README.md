@@ -1,9 +1,9 @@
 # Description
 
-    A script evaluating the effectiveness of an imaginary hoover cleaning dirt patches using 2D coordinate system.
-    To be able to calculate the number of dirt patches cleaned, the user will have to provide room dimensions, 
-    hoover starting position, dirt patches' positions and navigating instructions.
-    See ##Input Requirements for more info.
+A script evaluating the effectiveness of an imaginary hoover cleaning dirt patches using 2D coordinate system.
+To be able to calculate the number of dirt patches cleaned, the user will have to provide room dimensions, 
+hoover starting position, dirt patches' positions and navigating instructions.
+See ##Input Requirements for more info.
 
 
 
@@ -17,15 +17,10 @@
 
 ## Node.js
 
-### MacOs: To install the latest stable version of Node.js run the following command in your terminal: 
-    curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ |
-     sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer 
-     -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
-
-### Windows: Visit https://nodejs.org/en/#home-downloadhead and download the latest version. Follow the instructions to install.
+### Visit https://nodejs.org/en/download/ and download the latest version for your operating system. Follow the instructions to install.
 
 ## Text Editor
-    The easiest way to manipulate the data and run the script is to use a text editor. Choose between:
+The easiest way to manipulate the data and run the script is to use a text editor. Choose between:
 ### Visual Studio Code: https://code.visualstudio.com/
 ### Atom: https://atom.io/
 ### Sublime: https://www.sublimetext.com/
@@ -57,8 +52,7 @@
             "X-axis space Y-axis", e.g. "5 5" (you do NOT need to wrap the numbers in " " in the file)
         2.2 The second line is the starting position of the hoover. The format is the same as the format for the first line.
         2.3 Any consecutive lines will allocate positions for the dirt patches. The format is the same as for the previous two lines.
-        2.4 The last line is reserved for the navigation instructions using 
-            the [Cardinal Directions](https://en.wikipedia.org/wiki/Cardinal_direction), e.g. N, E, S, W.
+        2.4 The last line is reserved for the navigation instructions using the Cardinal Directions (https://en.wikipedia.org/wiki/Cardinal_direction), e.g. N, E, S, W.
             The format is as follows: "NNESEESWNWW", **no spaces allowed between the letters** (you do NOT need to wrap the sequence with " " in the file)
 
 ![Input Format](media/Input_format.png)
@@ -67,7 +61,7 @@
 
 # Usage
     1. Once you have installed Node.js and the input.txt file has been saved with the required data, 
-        you can run `node script.js` your terminal. Ensure the command is run in the project's directory.
+        you can run `node script.js` in your terminal. Ensure the command is run in the project's directory.
     2. The result will be printed out in your terminal:
         2.1 The first line will contain the final position of the hoover in the format - "X-axis space Y-axis", e.g. "1 3"
         2.2 The second line will be the number of dirt patches cleaned represented by a single number, e.g. "1"
@@ -80,10 +74,10 @@
     1.
         1.1 Input
 ![Input](media/Input_one.png)
-            
 
         1.2 Output
 ![Output](media/Output_one.png)
+
 
     2.
         2.1 Input
@@ -91,6 +85,7 @@
 
         2.2 Output
 ![Output](media/Output_two.png)
+
 
     3.
         3.1 Input
